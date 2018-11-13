@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ad-button-slide": [
+        "dist/ad-button-slide"
+      ],
+      "ad-button-slide/*": [
+        "dist/ad-button-slide/*"
+      ]
+    }
   }
 }

@@ -1,0 +1,19 @@
+p {
+  font-family: Lato;
+}
+
+.btn-slide-2 {
+  background:#888;
+  color:white;
+}
+
+div {
+  background:#efefef;
+  height:50px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin:0;
+  font-size:0.8em;
+}
