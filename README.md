@@ -1,6 +1,8 @@
-# AdButtonSlideLib
+# AdButtonSlide
 
 Button Slide : show simple icon, on hover : show icon + text
+
+<iframe src="https://stackblitz.com/edit/ad-button-slide?embed=1&file=src/app/app.component.html&hideExplorer=1&hideNavigation=1&view=preview" style="width:100%;height:330px;border:none;"></iframe>
 
 ## Using ***ad-button-slide*** in a project
 
