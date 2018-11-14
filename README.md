@@ -43,7 +43,7 @@ clone this project and run 'npm i && npm start'
 
 ### License
 
-The MIT License (see the [LICENSE](https://github.com/valor-software/ng2-file-upload/blob/master/LICENSE) file for the full text)
+MIT License
 
 ### Author
 Adrien Dessilly
