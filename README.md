@@ -17,7 +17,9 @@ imports: [ ..., AdButtonSlideModule ], ...
 3. (optional) import a icon lib like font-awesome
 4. Play with the component :-)
 ```
-&lt;ad-button-slide icon="fa fa-trash" label="Delete this this" buttonClass="btn-slide-2" background="red"&gt;&lt;/ad-button-slide&gt;
+<pre>
+<ad-button-slide icon="fa fa-trash" label="Delete this this" buttonClass="btn-slide-2" background="red"></ad-button-slide>
+</pre>
 ```
 
 ## Properties
