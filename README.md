@@ -15,11 +15,11 @@ import { AdButtonSlideModule } from 'ad-button-slide';
 @NgModule({
 imports: [ ..., AdButtonSlideModule ], ...
 ```
-3. (optional) import a icon lib like font-awesome
+3. (optional) import an icon library like font-awesome
 4. Play with the component :-)
-```
-<ad-button-slide icon="fa fa-trash" label="Delete this this" buttonClass="btn-slide-2" background="red"></ad-button-slide>
-```
+
+```<ad-button-slide icon="fa fa-trash" label="Delete this this" buttonClass="btn-slide-2" background="red"></ad-button-slide>```
+
 
 ## Properties
 
