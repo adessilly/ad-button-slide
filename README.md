@@ -1,4 +1,5 @@
 # AdButtonSlide
+[website]: https://adessilly.github.io/ad-button-slide/
 
 Button Slide : show simple icon, on hover : show icon + text
 
@@ -17,9 +18,9 @@ imports: [ ..., AdButtonSlideModule ], ...
 3. (optional) import a icon lib like font-awesome
 4. Play with the component :-)
 ```
-<pre>
+<pre><code>
 <ad-button-slide icon="fa fa-trash" label="Delete this this" buttonClass="btn-slide-2" background="red"></ad-button-slide>
-</pre>
+</code></pre>
 ```
 
 ## Properties
