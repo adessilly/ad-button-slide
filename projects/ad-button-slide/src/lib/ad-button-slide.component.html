@@ -1,7 +1,9 @@
 
-<div class="btn-slide" [class.mini]="mini"
-[style.background]="background"
-[style.color]="foreground">
+<div #adbuttonslidediv
+(mouseover)="mouseOver($event)"
+(mouseout)="mouseOut($event)"
+class="btn-slide"
+[class.mini]="mini">
     <span>{{ label }}</span>
     <i [class]="icon"></i>
 </div>

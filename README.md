@@ -15,11 +15,10 @@ import { AdButtonSlideModule } from 'ad-button-slide';
 @NgModule({
 imports: [ ..., AdButtonSlideModule ], ...
 ```
-3. (optional) import an icon library like font-awesome
+3. (optional) import an icon library like fontawesome (`npm i @fortawesome/fontawesome-free`)
 4. Play with the component :-)
 
-```<ad-button-slide icon="fa fa-trash" label="Delete this this" buttonClass="btn-slide-2" background="red"></ad-button-slide>```
-
+```<ad-button-slide icon="fas fa-trash" label="Delete this" background="red"></ad-button-slide>```
 
 ## Properties
 
@@ -31,6 +30,8 @@ Parameters supported by this object:
 - `label`: string; - label displayed on hover
 - `background`: string = '#aaa'; - css background color
 - `foreground`: string = 'white'; - css font color
+- `backgroundOver`: string = null; - css background color when mouseOver, if no value given : backgroundOver = background
+- `foregroundOver`: string = null; - css font color when mouseOver, if no value given : foregroundOver = foreground
 - `mini`: boolean = false; - boolean to make the button tiny
 
 ## Example
@@ -41,9 +42,9 @@ Parameters supported by this object:
 
 clone this project and run 'npm i && npm start'
 
-### License
+## License
 
 MIT License
 
-### Author
+## Author
 Adrien Dessilly
