@@ -23,11 +23,11 @@ export class AdButtonSlideComponent implements OnInit {
     this.initStateCss();
   }
 
-  mouseOver($event) {
+  mouseOverButton($event) {
     this.initStateCssOver();
   }
 
-  mouseOut($event) {
+  mouseOutButton($event) {
     this.initStateCss();
   }
 
