@@ -19,29 +19,29 @@ export class AdButtonSlideComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  public ngOnInit() {
     this.initStateCss();
   }
 
-  mouseOverButton($event) {
+  public mouseOverButton($event) {
     this.initStateCssOver();
   }
 
-  mouseOutButton($event) {
+  public mouseOutButton($event) {
     this.initStateCss();
   }
 
-  initStateCss() {
+  public initStateCss() {
     this.changeCss('background', this.background);
     this.changeCss('color', this.foreground);
   }
 
-  initStateCssOver() {
+  public initStateCssOver() {
     this.changeCss('background', this.backgroundOver);
     this.changeCss('color', this.foregroundOver);
   }
 
-  changeCss(property, value) {
+  public changeCss(property, value) {
     if (value === null) {
       return;
     }
